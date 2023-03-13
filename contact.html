@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="contact">
+                <h1>Liên hệ</h1>
+                <p><a href="#"><i class="fa-solid fa-location-dot"></i></a>Địa chỉ Tầng 1,tòa nhà C5, đại học Thủy Lợi, 175 Tây Sơn, Đống Đa, Hà Nội</p>
+                <p><a href="#"><i class="fa-solid fa-blender-phone"></i></a>Tel: 0964124123</p>
+                <p><a href="#"><i class="fa-solid fa-phone"></i></a>Hotline: 0917314526</p>
+                <p><a href="#"><i class="fa-regular fa-envelope"></i></a>Email: thuyloi@tlu.edu.vn</p>
+            </div>
+            <div class="form">
+                <form action="#">
+                    <input name="name" id="name" type="text" placeholder="Họ và tên" minlength="1" maxlength="50" onblur="return validateName()">
+                    <span id="error-name"></span>
+                    <input name="email" id="email" type="email" placeholder="Email" onblur="return validateEmail()">
+                    <span id="error-email"></span>
+                    <div class="phone-box">
+                        <input name="phone" id="phone" type="text" placeholder="Số điện thoại" maxlength="10">
+                        <span id="error-phone"></span>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/939/939633.png" alt=""></a>
+                    </div>
+                    <!-- <span></span> -->
+                    <textarea placeholder="Lời nhắc" name="" id="note" cols="30" rows="10"></textarea>
+                    <span id="error-note"></span>
+                    <!-- <input type="submit"> -->
+                    <button id="submit">Gửi</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./contact.js"></script>
+</body>
+</html>

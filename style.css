@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headertop {
+    display: flex;
+    justify-content:space-between;
+}
+
+.headertop a {
+    font-size: 14px;
+}
+
+.headermid {
+    background-color: #9F1D1D;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 6px 8px;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.phone {
+    display: flex;
+}
+
+.logo {
+    height: 40px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    color: #fff;
+}
+
+.headertop {
+    padding: 5px 10px;
+}
+
+.headertop a {
+    color: #000
+}
+
+header {
+    border-top: 2px solid #002060;
+}
+
+header,.slides {
+    border-left: 2px solid #002060;
+    border-right: 2px solid #002060;
+    padding-right: 4px;
+}
+
+.slides {
+    border-bottom: 2px solid #002060;
+
+}
+
+header i {
+    margin-right: 10px;
+}
+
+.contactnow {
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    padding: 8px;
+}
+
+.contactnow p {
+    font-weight: 600;
+}
+
+.icon i{
+    margin-right: 30px;
+}
+
+.headermid .navbar ul li {
+    margin: 0 30px;
+    text-transform: uppercase;
+}
+
+.headermid .navbar ul li i {
+    color: #fff;
+}
+
+.headermid .navbar ul li a {
+    font-weight: 600;
+}
+
+
+/* section .slide {
+    margin-top: 10px;
+    background: url('./dowload2.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: percentage;
+    height: 600px;
+} */
+
+.slides {
+    margin-top: 10px;
+}
+
+.slide {
+    /* height:100vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+}
+
+
+
+@media (max-width:1200px){
+    .headermid {
+
+    }
+
+
+}
