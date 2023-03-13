@@ -50,6 +50,9 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style-type: none;
+}
 li a {
     color: #fff;
 }
@@ -135,7 +138,28 @@ header i {
     width: 100%;
 }
 
+.navbar{
+    display: flex;
+    position: relative;
+}
 
+.navbar .sub-nav {
+    margin-top: 20px;
+    background-color: #9F1D1D;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    border-radius: 10px;
+}
+
+.navbar .sub-nav a {
+    padding: 15px 20px;
+    display: block;
+}
+
+.navbar li:hover .sub-nav{
+    display: block;
+}
 
 @media (max-width:1200px){
     .headermid {
